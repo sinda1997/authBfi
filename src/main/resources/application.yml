@@ -1,0 +1,20 @@
+#spring.application.name : bfi-referentiel
+#server:
+ # port: 8082
+#eureka:
+ # client:
+  #  service-url:
+   #   defaultZone: http://laptop-jcfdifev:8761/eureka
+#spring:
+ # datasource:
+  #  driver-class-name: oracle.jdbc.driver.OracleDriver
+   # url: jdbc:oracle:thin:@localhost:1521/sinda
+   # username: C##bfi_referentiel
+    #password: bfi_referentiel
+ # jpa:
+  #  show-sql: false
+#security:
+ #   oauth2:
+  #      resource:
+   #         jwt:
+    #          key-value: -----BEGIN PUBLIC KEY-----MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsY9wY6rwdql0GCPFxu7eEypLC8TkDQHgaFlmP5QBf7Il4/8/ogTrT1cLF/fMrfhoJrPeZWjzP6NmaxttCUcki8JSbmaxdYNnIPHsPFvqr1DlpvikdKiG5lkKS27E9uUQ1XmeXh9Vhn9QwLQyXl5bbbjlDewiCzB/MuKlbuuxFsb7ZPpBD+rE69efUfTu8dZPa5QzTugqxqAe9q2soLPxYyh91BGjVGWMN9wwWnM+WaQ9IehuQko7drlvJRVhPow9zvzTanaJckn02+Ubj5+LFQ8yYNe/PQQSS+noaQtmCqRfVhL161F6yivj16EuYJhkUn3TQQTbDhSU3CcdMcX5lQIDAQAB-----END PUBLIC KEY-----
